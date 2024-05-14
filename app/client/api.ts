@@ -20,7 +20,7 @@ export interface MultimodalContent {
   text?: string;
   image_url?: {
     url: string;
-    detail: string;
+    detail?: string;
   };
 }
 
