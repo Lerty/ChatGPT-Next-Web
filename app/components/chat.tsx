@@ -1324,6 +1324,7 @@ function _Chat() {
                                   type: "image_url",
                                   image_url: {
                                     url: images[i],
+                                    detail : "high",
                                   },
                                 });
                               }
